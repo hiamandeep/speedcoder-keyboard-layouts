@@ -1,0 +1,78 @@
+#keyboard	* {
+	-webkit-box-sizing: initial!important;
+	-moz-box-sizing: initial!important;
+	box-sizing: initial!important;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#keyboard{
+	float:left; 
+	width:750px;
+	height: 262px;
+	background-color: #D1D5D7;
+	transform: rotateX(30deg);
+	margin: 0 auto;
+}
+
+.ul-style{
+	padding: 5px;
+}
+
+.key{
+
+	width: 40px; height:26px;
+	text-align: left;
+	padding-left: 8px;
+	padding-bottom: 15px;
+	line-height: 40px;
+	border-radius:2px;
+	float:left; /*to put all li on one line*/ 
+	margin-left: 2px;
+	margin-bottom:5px;
+
+	color: #000;
+	font: bold 11pt arial;
+	text-decoration: none;
+	text-align: center;
+
+
+	background: #fff;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-top: 1px solid #f5f5f5;
+	-webkit-box-shadow: 
+		inset 0 0 25px #e8e8e8,
+		0 1px 0 #c3c3c3,
+		0 2px 0 #c9c9c9,
+		0 2px 3px #333;
+	-moz-box-shadow: 
+		inset 0 0 25px #e8e8e8,
+		0 1px 0 #c3c3c3,
+		0 2px 0 #c9c9c9,
+		0 2px 3px #333;
+	box-shadow: 
+		inset 0 0 25px #e8e8e8,
+		0 1px 0 #c3c3c3,
+		0 2px 0 #c9c9c9,
+		0 2px 3px #333;
+	text-shadow: 0px 1px 0px #f5f5f5;
+
+
+	line-height: 20px;
+	opacity: 0.4;
+
+}
+
+.backspace {width:80px; font-size: 12px;line-height: 40px}
+.backspace1 {width:70px; font-size: 12px;}
+.tab {width: 50px; line-height: 40px; font-size:13px;}
+.backslash{width:70px;}
+.capslock{width:70px; font-size:12px;}
+.enter{width:107px; line-height:40px; text-align: center; padding-left:0;}
+.shift-left{width: 90px;line-height: 40px; font-size:13px;}
+.shift-right{width: 130px;line-height: 40px; font-size:13px;}
+.ctrl{width: 50px; line-height: 40px; font-size:13px;}
+.spacebar{width:360px;}
