@@ -8,15 +8,17 @@ Users can contibute keyboard layouts for www.speedcoder.net here
 ### DVORAK
 ![dvorak](https://upload.wikimedia.org/wikipedia/commons/2/25/KB_United_States_Dvorak.svg)
 
-## Keyboard Layouts to be added
-
 ### COLEMAK 
-
 ![colemak](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/KB_US-Colemak.svg/900px-KB_US-Colemak.svg.png)
+
+## Keyboard Layouts to be added
 
 ### QWERTZ (German)
 
 ![qwertz](https://upload.wikimedia.org/wikipedia/commons/3/36/KB_Germany.svg)
+
+### WORKMAN
+![workman](https://upload.wikimedia.org/wikipedia/commons/3/35/Workman_keyboard_layout.png)
 
 ## How to add a new keyboard layout
 
