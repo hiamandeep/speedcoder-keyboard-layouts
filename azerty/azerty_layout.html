@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="azerty_style.css">
+	<title>Azerty Keyboard Layout for SpeedCoder</title>
+
+</head>
+
+<body>
+
+<h1>Azerty Keyboard Layout for SpeedCoder</h1>
+
+	<div id="keyboard" style="border-top:solid #efefef;">
+		<ul class="ul-style">
+			<!--1st row-->
+
+			<li class="key key-178 fin-1"><br>²</li>
+			<li class="key key-49  keyr-38  dual fin-1 num1">1<br>&</li>
+			<li class="key key-50  keyr-233 triple fin-2 num2">2<br>é ~</li>
+			<li class="key key-51  keyr-34  triple fin-3 num3">3<br>" #</li>
+			<li class="key key-52  keyr-39  triple fin-4 num4">4<br>' {</li>
+			<li class="key key-53  keyr-40  triple fin-4 num5">5<br>( [</li>
+			<li class="key key-54  keyl-45  triple fin-7 num6">6<br>- |</li>
+			<li class="key key-55  keyl-232 triple fin-7 num7">7<br>è `</li>
+			<li class="key key-56  keyl-95  triple fin-8 num8">8<br>_ \</li>
+			<li class="key key-57  keyl-231 triple fin-9 num9">9<br>ç ^</li>
+			<li class="key key-48  keyl-224 triple fin-10 num0">0<br>à  @</li>
+			<li class="key key-176 keyl-41  triple fin-10">°<br>) ]</li>
+			<li class="key key-43  keyl-61  triple fin-10">+<br>= }</li>
+			<li class="key key-8   keyd-def backspace fin-10">Backspace</li>
+			<!-- 2nd row -->
+			<li class="key key-def keyd-def  tab fin-1">Tab</li>
+			<li class="key key-65  keyr-97   letter fin-1 a">A</li>
+			<li class="key key-90  keyr-122  letter fin-2 z">Z</li>
+			<li class="key key-69  keyr-101  letter fin-3 e">E<br>€</li>
+			<li class="key key-82  keyr-114  letter fin-4 r">R</li>
+			<li class="key key-84  keyr-116  letter fin-4 t">T</li>
+			<li class="key key-89  keyl-121  letter fin-7 y">Y</li>
+			<li class="key key-85  keyl-117  letter fin-7 u">U</li>
+			<li class="key key-73  keyl-105  letter fin-8 i">I</li>
+			<li class="key key-79  keyl-111  letter fin-9 o">O</li>
+			<li class="key key-80  keyl-112  letter fin-10 p">P</li>
+			<li class="key key-168 keyl-94   dual fin-10">¨<br>^</li>
+			<li class="key key-163 keyl-36   dual fin-10">£<br>$</li>
+			<li class="key key-10  keyd-def  enter fin-10">Enter</li>
+			<!-- 3rd row -->
+			<li class="key key-def keyd-def  capslock fin-1">&#8682;</li>
+			<li class="key key-81  keyr-113  letter fin-1 q">Q</li>
+			<li class="key key-83  keyr-115  letter fin-2 s">S</li>
+			<li class="key key-68  keyr-100  letter fin-3 d">D</li>
+			<li class="key key-70  keyr-102  letter fin-4 f">F</li>
+			<li class="key key-71  keyr-103  letter fin-4 g">G</li>
+			<li class="key key-72  keyl-104  letter fin-7 h">H</li>
+			<li class="key key-74  keyl-106  letter fin-7 j">J</li>
+			<li class="key key-75  keyl-107  letter fin-8 k">K</li>
+			<li class="key key-76  keyl-108  letter fin-9 l">L</li>
+			<li class="key key-77  keyl-109  letter fin-10 m">M</li>
+			<li class="key key-37  keyl-249  dual fin-10">%<br>ù</li>
+			<li class="key key-181 keyl-42   fin-10">µ<br>*</li>
+
+			<!-- 4th row -->
+			<li class="key key-sl  keyd-def shift-left fin-1">&#8679;</li>
+			<li class="key key-62  keyr-60  fin-1">><br><</li>
+			<li class="key key-87  keyr-119 letter fin-2 w">W</li>
+			<li class="key key-88  keyr-120 letter fin-3 x">X</li>
+			<li class="key key-67  keyr-99  letter fin-4 c">C</li>
+			<li class="key key-86  keyr-118 letter fin-4 v">V</li>
+			<li class="key key-66  keyl-98  letter fin-7 b">B</li>
+			<li class="key key-78  keyl-110 letter fin-7 n">N</li>
+			<li class="key key-63  keyl-44  dual fin-8">?<br>,</li>
+			<li class="key key-46  keyl-59  dual fin-9">.<br>;</li>
+			<li class="key key-47  keyl-58  dual fin-10 forwardslash">/<br>:</li>
+			<li class="key key-167 keyl-33  dual fin-10">§<br>!</li>
+			<li class="key key-sr  keyd-def shift-right fin-10">&#8679;</li>
+			<!-- 5th row -->
+			<li class="key key-def keyd-def ctrl fin-1">Ctrl</li>
+			<li class="key key-def keyd-def fin-1">Fn</li>
+			<li class="key key-def keyd-def fin-1"></li>
+			<li class="key key-def keyd-def fin-1">Alt</li>
+			<li class="key key-32  keyd-def spacebar fin-6">Space bar</li>
+			<li class="key key-def keyd-def fin-10">Alt Gr</li>
+			<li class="key key-def keyd-def fin-10">Menu</li>
+			<li class="key key-def keyd-def ctrl fin-10">Ctrl</li>
+		</ul>
+    </div>
+
+		<script>
+			let keys = document.querySelectorAll('.key');
+			keys.forEach(key => console.log(key.textContent, key.textContent.charCodeAt(1)))
+		</script>
+</body>
+
+</html>
